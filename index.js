@@ -5,7 +5,7 @@ const { MerkleTree } = require("merkletreejs");
 
 const sha256 = (data) => crypto.createHash("sha256").update(data).digest();
 
-// Example addresses (leaf nodes)
+// The 5 addresses (leaf nodes)
 const addresses = [
   "0x1234567890abcdef1234567890abcdef12345678",
   "0xabcdef1234567890abcdef1234567890abcdef12",
