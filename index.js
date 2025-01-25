@@ -1,3 +1,4 @@
+// Importing the necessary library
 const crypto = require("crypto");
 const { MerkleTree } = require("merkletreejs");
 
